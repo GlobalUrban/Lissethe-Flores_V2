@@ -1,9 +1,14 @@
+//Colors//
 $red: #b31827;
 $blue: 31376E;
 
 // Fonts //
+@font-face {
+    font-family: 'Poppins Regular' ;
+    src: url(../FONTS/Poppins-Regular.otf);
+}
 $font-blue: #252955;
-$font-family-0: sans-serif;
+$font-family-0: Poppins Regular;
 $font-family-1: Poppins;
 
 // $font-XL: 50px;
@@ -12,8 +17,8 @@ $font-family-1: Poppins;
 // $font-S: 20px;
 // $font-XS: 16px;
 
-$font-XL: 55px;
-$font-L: 35px;
-$font-M: 30px;
-$font-S: 25px;
-$font-XS: 18px;
+$font-XL: 53px;
+$font-L: 32px;
+$font-M: 27px;
+$font-S: 22px;
+$font-XS: 16px;
