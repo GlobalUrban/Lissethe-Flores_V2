@@ -1,0 +1,49 @@
+.lines-between {
+    width: 100%;
+    height: 100vh;
+    @include flex-center;
+    transform: translateY(-50%);
+    img {
+        @include img;
+        width: 110%;
+        height: 110%;
+    }
+}
+
+
+@media screen and(max-width: 1370px) {
+    .lines-between {
+        width: 100%;
+        height: 800px;
+        @include flex-center;
+        transform: translateY(-55%);
+        img {
+            @include img;
+        }
+    }
+}
+
+@media screen and(max-width: 1050px) {
+    .lines-between {
+        width: 100%;
+        height: 600px;
+        @include flex-center;
+        transform: translateY(-50%);
+        img {
+            @include img;
+        }
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .lines-between {
+        width: 100%;
+        height: 600px;
+        @include flex-center;
+        transform: translateY(-55%);
+        img {
+            @include img;
+            transform: scaleX(-1);
+        }
+    }
+}

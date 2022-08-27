@@ -7,18 +7,21 @@ $blue: 31376E;
     font-family: 'Poppins Regular' ;
     src: url(../assets/FONTS/Poppins-Regular.otf);
 }
+
+@font-face {
+    font-family: 'Segoescb';
+    src: url(../assets/FONTS/segoescb.ttf);
+}
+
 $font-blue: #252955;
 $font-family-0: Poppins Regular;
-$font-family-1: Poppins;
+$font-family-1: Segoescb;
 
-// $font-XL: 50px;
-// $font-L: 30px;
-// $font-M: 25px;
-// $font-S: 20px;
-// $font-XS: 16px;
 
-$font-XL: 53px;
-$font-L: 32px;
-$font-M: 27px;
-$font-S: 22px;
-$font-XS: 16px;
+
+$XL: 50px;
+$X: 40px;
+$L: 30px;
+$M: 20px;
+$S: 20px;
+$XS: 16px;
