@@ -2,7 +2,7 @@ nav {
   width: 100%;
   height: 20vh;
   min-height: 200px;
-  max-height: 300px;
+  max-height: 250px;
   display: flex;
   justify-content: space-between;
   background: white;
@@ -104,7 +104,7 @@ nav {
     .nav-logo {
       width: 350px;
       margin-left: 20px;
-      transform: translateY(0);
+      
     }
 
     .nav-links {
@@ -131,6 +131,7 @@ nav {
 
 @media screen and (max-width: 1160px) {
   nav {
+    min-height: 150px;
     .nav-logo {
       width: 270px;
     }
@@ -153,16 +154,16 @@ nav {
     position: relative;
     height: 100px;
     flex-direction: column;
-    max-height: 200px;
+ 
 
     .nav-logo {
-      width: 280px;
-      
+      width: 200px;
       margin-left: 10px;
-      margin-top: 20px;
+      margin-top: 3vh;
       position: absolute;
       align-self: flex-start;
-      justify-self: center;
+      
+      transform: translateY(0);
     }
 
     .nav-links {
