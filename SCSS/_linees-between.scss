@@ -2,6 +2,8 @@
     width: 100%;
     height: 100vh;
     @include flex-center;
+    position: absolute;
+    z-index: 5;
     transform: translateY(-50%);
     img {
         @include img;

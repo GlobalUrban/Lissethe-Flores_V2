@@ -1,0 +1,18 @@
+.read-more {
+    width: 140px;
+    height: 50px;
+    background: $test-4;
+    border: none;
+    background: none;
+    color: $red;
+    font-size: $M;
+    @include flex-between(row);
+
+    svg {
+        @include img-square(25px);
+        @include flex-center;
+        fill: $red;
+        transform: rotate(90deg);
+    }
+
+}
