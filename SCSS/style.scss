@@ -11,6 +11,10 @@
 @import './footer';
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: $font-family-0;
     min-width: 360px;
