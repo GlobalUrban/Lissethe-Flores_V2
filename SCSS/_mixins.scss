@@ -38,6 +38,16 @@
     height: $width;
 }
 
+@mixin cont-img($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin --img($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 
 @mixin coursive-title($color, $font-size) {
     width: auto;
