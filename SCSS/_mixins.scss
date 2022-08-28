@@ -49,6 +49,7 @@
 }
 
 
+// Title // ==============================================
 @mixin coursive-title($color, $font-size) {
     width: auto;
     height: 100px;
@@ -67,6 +68,11 @@
        height: 60px;
        font-size: $X;
     }
+
+    @media screen and(max-width: 400px) {
+        height: 60px;
+        font-size: 37px;
+     }
 }
 
 @mixin coursive-line($width, $color) {
