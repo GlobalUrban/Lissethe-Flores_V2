@@ -16,3 +16,14 @@
     }
 
 }
+
+.--margin {
+    width: 100%;
+    height: 100px;
+    display: none;
+
+    @media screen and(max-width: 1050px) {
+        display: block;
+        
+    }
+}

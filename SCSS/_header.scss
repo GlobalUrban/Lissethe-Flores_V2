@@ -5,7 +5,6 @@ header {
   min-height: 700px;
   position: relative;
   display: flex;
-
   .header__img {
     @include img;
     align-self: center;

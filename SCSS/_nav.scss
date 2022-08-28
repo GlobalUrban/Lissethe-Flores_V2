@@ -133,7 +133,7 @@ nav {
 
 @media screen and (max-width: 1160px) {
   nav {
-    min-height: 150px;
+    min-height: 100px;
     .nav-logo {
       width: 270px;
     }
@@ -155,13 +155,16 @@ nav {
   nav {
     position: relative;
     height: 100px;
+    max-height: 100px;
     flex-direction: column;
+    position: fixed;
+    z-index: 10;
  
 
     .nav-logo {
-      width: 200px;
+      width: 120px;
       margin-left: 10px;
-      margin-top: 3vh;
+      margin-top: 2.5vh;
       position: absolute;
       align-self: flex-start;
       
@@ -179,7 +182,7 @@ nav {
       justify-content: flex-end;
       clip-path: circle(100px at 90% -10%);
       -webkit-clip-path: circle(100px at 90% -10%);
-      transition: all 1s ease-out;
+      transition: all 0.5s ease-out;
       pointer-events: none;
 
       .nav-links__container {
