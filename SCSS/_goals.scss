@@ -1,0 +1,206 @@
+.goals {
+    width: 100%;
+    height: 700px;
+    @include flex-center;
+    position: relative;
+
+    .goals-bg {
+        @include img;
+        width: 150%;
+        width: 150%;
+    }
+
+    .goals-content {
+        width: 90%;
+        max-width: 1200px;
+        height: 90%;
+        @include flex(column,center);
+        position: absolute;
+        gap: 20px;
+
+        .goals__title {
+            @include coursive-title(white, $XL);
+            margin-left: 5%;
+            align-self: flex-start;
+
+            .goals__title-line {
+                @include coursive-line(100%, white);
+            }
+        }
+
+
+
+        .goals-content__cont-point {
+            height: 80%;
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            .goals-content__point {
+                width: 500px;
+                display: flex;
+                gap: 10px;
+                img {
+                    @include img-square(30px)
+                }
+
+                p {
+                    color: white;
+                    font-size: $S;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+// Media Querys // ---------------------
+@media screen and(max-width: 1275px) {
+    .goals {
+          
+        .goals-content {
+            .goals-content__cont-point {
+                height: 80%;
+                width: 90%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+               
+                .goals-content__point {
+                    width: 400px;
+                    display: flex;
+                   
+                    gap: 10px;
+                    img {
+                        @include img-square(30px)
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: $S;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media screen and(max-width: 1050px) {
+    .goals {
+        .goals-content {
+            .goals-content__cont-point {
+                height: 80%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+               
+                .goals-content__point {
+                    width: 350px;
+                    display: flex;
+                   
+                    gap: 10px;
+                    img {
+                        @include img-square(20px)
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: $XS;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media screen and(max-width: 816px) {
+    .goals {
+        .goals-content {
+            width: 100%;
+            .goals-content__cont-point {
+               
+               
+                .goals-content__point {
+                  
+                    img {
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: $XS;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media screen and(max-width: 720px) {
+    .goals {
+        .goals-content {
+            width: 100%;
+
+            .goals__title {
+                justify-self: center;
+                align-self: center;
+                margin-left: none;
+            }
+            .goals-content__cont-point {
+               @include flex(column, center);
+               flex-wrap: nowrap;
+               gap: 20px;
+               
+                .goals-content__point {
+                    width: 80%;
+
+                    img {
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: $XS;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media screen and(max-width: 456px) {
+    .goals {
+        .goals-content {
+            width: 100%;
+            height: 95%;
+            .goals__title {
+                justify-self: center;
+                align-self: center;
+                margin-left: none;
+            }
+            .goals-content__cont-point {
+               @include flex(column, center);
+               flex-wrap: nowrap;
+               gap: 20px;
+               
+                .goals-content__point {
+                    width: 90%;
+
+                    img {
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: $XS;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    } 
+}
