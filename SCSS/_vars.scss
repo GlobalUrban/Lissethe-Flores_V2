@@ -11,12 +11,14 @@ $test-4: rgba(0, 128, 0, 0.507);
 // Fonts //
 @font-face {
     font-family: 'Poppins Regular' ;
-    src: url(../assets/FONTS/Poppins-Regular.otf);
+    src: url(../assets/FONTS/Poppins-Regular.otf);    
 }
 
 @font-face {
     font-family: 'Segoescb';
-    src: url(../assets/FONTS/segoescb.ttf);
+    src: url(../assets/FONTS/segoescb.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 $font-blue: #252955;

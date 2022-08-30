@@ -1,6 +1,7 @@
 .goals {
     width: 100%;
     height: 700px;
+    overflow-x: hidden;
     @include flex-center;
     position: relative;
 

@@ -4,6 +4,7 @@
   position: relative;
   @include flex-center;
   justify-content: flex-end;
+  overflow-x: hidden;
 
   .contact-bg {
     @include img;
