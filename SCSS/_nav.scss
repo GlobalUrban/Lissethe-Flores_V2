@@ -54,16 +54,22 @@ nav {
     }
 
     .nav-links__container-buttons {
+      
       .nav-links__container-button {
         width: 220px;
         height: 60px;
         font-size: $S;
         margin-right: 20px;
         background: $red;
-        color: white;
+        
         border: none;
         font-weight: 700;
         transition: ease-out 0.2s;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        
 
         &:hover {
           cursor: pointer;
