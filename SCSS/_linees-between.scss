@@ -4,7 +4,7 @@
     @include flex-center;
     overflow: hidden;
     position: absolute;
-    z-index: 5;
+    z-index: 2;
     transform: translateY(-50%);
     img {
         @include img;

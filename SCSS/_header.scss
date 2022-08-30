@@ -18,10 +18,11 @@ header {
     justify-self: flex-start;
     color: white;
     margin-left: 5vw;
-    z-index: 2;
+    z-index: 5;
 
     h1 {
       font-size: $XL;
+      z-index: 5;
 
       .header__coursive-title {
         @include coursive-title(white, $XL);
