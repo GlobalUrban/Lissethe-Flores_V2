@@ -1,0 +1,78 @@
+footer {
+    width: 100%;
+    height: 100px;
+    background: $red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-2px);
+
+    .footer-section {
+        
+        width: 32%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: white;
+        border-right: solid white 1px;
+        
+        
+        svg {
+           width: 25px;
+           height: 25px; 
+           fill: white;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+
+    }
+
+    .--no-border {
+        border-right: none;
+        text-align: center;
+        margin-right: 15px;
+    }
+}
+
+
+// Media Qerys // --------------------------------
+@media screen and(max-width: 630px) {
+    footer {
+        width: 100%;
+        height: 300px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        .footer-section {
+            height: 25%;
+            width: 70%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            color: white;
+            border-right: none;
+            border-bottom: solid white 1px;
+            
+            
+            svg {
+               width: 25px;
+               height: 25px; 
+               fill: white;
+            }
+    
+            p {
+                margin-left: 10px;
+            }
+    
+        }
+    
+        .--no-border {
+            border-right: none;
+        }
+    }
+}

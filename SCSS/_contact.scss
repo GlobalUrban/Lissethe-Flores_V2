@@ -4,7 +4,7 @@
   position: relative;
   @include flex-center;
   justify-content: flex-end;
-  overflow-x: hidden;
+  overflow: hidden;
 
   .contact-bg {
     @include img;
@@ -87,12 +87,12 @@
 @media screen and(max-width: 1450px) {
   .contact {
     height: 100vh;
-    min-height: 600px;
+    min-height: 1000px;
     max-height: 1000px;
 
     .cont-contact {
       width: 500px;
-      height: 55%;
+      height: 45%;
       margin-top: 150px;
       position: absolute;
       margin-right: 5vw;
@@ -163,7 +163,7 @@
 @media screen and(max-width: 1000px) {
   .contact {
     height: 100vh;
-    min-height: 600px;
+    min-height: 700px;
     max-height: 1000px;
     justify-content: center;
 

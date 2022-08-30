@@ -23,11 +23,11 @@ header {
     h1 {
       font-size: $XL;
       z-index: 5;
+      text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.877);  
 
       .header__coursive-title {
         @include coursive-title(white, $XL);
         
-
         .header__coursive-line {
           @include coursive-line(80%, white);
         }
