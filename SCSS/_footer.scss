@@ -8,7 +8,6 @@ footer {
     transform: translateY(-2px);
 
     .footer-section {
-        
         width: 32%;
         display: flex;
         justify-content:center;
@@ -25,6 +24,7 @@ footer {
 
         p {
             margin-left: 10px;
+            text-align: left;
         }
 
     }
@@ -38,6 +38,43 @@ footer {
 
 
 // Media Qerys // --------------------------------
+@media screen and(max-width: 9650px) {
+    footer {
+    
+    
+        .footer-section {  
+            svg {
+               width: 25px;
+               height: 25px; 
+               fill: white;
+            }
+    
+            p {
+                margin-left: 10px;
+            }
+    
+        }
+
+        .footer-1 {
+            order: 1;
+        }
+
+        .footer-2 {
+            order: 3;
+            border: none;
+        }
+    
+        .--no-border {
+            border-right: solid white 1px;
+            order: 2;
+
+            svg  {
+                display: none;
+            }
+        }
+    }
+}
+
 @media screen and(max-width: 630px) {
     footer {
         width: 100%;
