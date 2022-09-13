@@ -7,6 +7,13 @@
     align-items: center;
 }
 
+@mixin --flex($direction, $position) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $position;
+    align-items: center;
+}
+
 @mixin flex-center {
     display: flex;
     justify-content: center;
