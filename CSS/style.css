@@ -883,7 +883,14 @@ header .header__cont-info h1 span {
   border-radius: 30px;
   transform: rotate(-0.7deg);
 }
-.goals .goals-content .goals-content__cont-point {
+.goals .goals-content .goals__description {
+  width: 80%;
+  color: white;
+  font-size: 25px;
+  margin: 10px 0;
+  text-align: center;
+}
+.goals .goals-content .goals-content__cont-points {
   height: 80%;
   width: 90%;
   display: flex;
@@ -892,27 +899,31 @@ header .header__cont-info h1 span {
   justify-content: center;
   align-items: center;
 }
-.goals .goals-content .goals-content__cont-point .goals-content__point {
+.goals .goals-content .goals-content__cont-points .goals-content__point {
   width: 500px;
   display: flex;
   gap: 10px;
 }
-.goals .goals-content .goals-content__cont-point .goals-content__point img {
+.goals .goals-content .goals-content__cont-points .goals-content__point img {
   width: 30px;
   height: 30px;
 }
-.goals .goals-content .goals-content__cont-point .goals-content__point p {
+.goals .goals-content .goals-content__cont-points .goals-content__point p {
   color: white;
   font-size: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 @media screen and (max-width: 1275px) {
+  .goals {
+    height: 800px;
+  }
   .goals .goals-content .goals-content__cont-point {
     height: 80%;
     width: 90%;
+    min-width: 1025px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
   }
   .goals .goals-content .goals-content__cont-point .goals-content__point {
@@ -927,7 +938,6 @@ header .header__cont-info h1 span {
   .goals .goals-content .goals-content__cont-point .goals-content__point p {
     color: white;
     font-size: 20px;
-    text-align: justify;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -953,7 +963,6 @@ header .header__cont-info h1 span {
   .goals .goals-content .goals-content__cont-point .goals-content__point p {
     color: white;
     font-size: 16px;
-    text-align: justify;
   }
 }
 @media screen and (max-width: 816px) {
@@ -963,7 +972,6 @@ header .header__cont-info h1 span {
   .goals .goals-content .goals-content__cont-point .goals-content__point p {
     color: white;
     font-size: 16px;
-    text-align: justify;
   }
 }
 @media screen and (max-width: 720px) {
@@ -989,12 +997,11 @@ header .header__cont-info h1 span {
   .goals .goals-content .goals-content__cont-point .goals-content__point p {
     color: white;
     font-size: 16px;
-    text-align: justify;
   }
 }
 @media screen and (max-width: 456px) {
   .goals {
-    height: 800px;
+    height: 1200px;
   }
   .goals .goals-content {
     width: 100%;
@@ -1020,7 +1027,6 @@ header .header__cont-info h1 span {
   .goals .goals-content .goals-content__cont-point .goals-content__point p {
     color: white;
     font-size: 16px;
-    text-align: justify;
   }
 }
 .news {
