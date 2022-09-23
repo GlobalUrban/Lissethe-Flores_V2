@@ -838,6 +838,7 @@ header .header__cont-info h1 span {
   align-items: center;
   position: absolute;
   gap: 20px;
+  transform: translateY(20px);
 }
 .goals .goals-content .goals__title {
   width: auto;
@@ -1290,6 +1291,7 @@ header .header__cont-info h1 span {
   align-items: center;
   justify-content: flex-end;
   overflow: hidden;
+  transform: translateY(-5px);
 }
 .contact .contact-bg {
   width: 100%;

@@ -18,6 +18,7 @@
         @include flex(column,center);
         position: absolute;
         gap: 20px;
+        transform: translateY(20px);
 
         .goals__title {
             @include coursive-title(white, $XL);
