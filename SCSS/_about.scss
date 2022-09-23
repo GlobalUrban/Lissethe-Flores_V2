@@ -81,6 +81,13 @@
         text-align: justify;
       }
 
+      .about-content__hide {
+        display: none;
+      }
+      
+      .about-content__open {
+        display: block;
+      }
       .about-content__info-bottom {
         width: 100%;
         height: 20%;
@@ -166,6 +173,8 @@
     }
   }
 }
+
+
 
 // Media Querys // ----------------------------------
 
@@ -324,5 +333,11 @@
     }
   }
 }
+
+
+
+
+
+
 
 
