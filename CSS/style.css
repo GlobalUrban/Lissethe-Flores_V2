@@ -818,7 +818,16 @@ header .header__cont-info h1 span {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+}
+@media screen and (max-width: 1250px) {
+  .goals {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .goals {
+    height: 200px;
+  }
 }
 .goals .goals-bg {
   width: 100%;
@@ -827,18 +836,20 @@ header .header__cont-info h1 span {
      object-fit: cover;
   width: 150%;
   width: 150%;
+  position: relative;
 }
 .goals .goals-content {
   width: 90%;
   max-width: 1200px;
-  height: 90%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
   gap: 20px;
-  transform: translateY(20px);
+  transform: translateY(15%);
+  z-index: 5;
 }
 .goals .goals-content .goals__title {
   width: auto;
