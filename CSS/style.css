@@ -30,6 +30,9 @@
   fill: #CC1417;
   transform: rotate(90deg);
 }
+.read-more:hover {
+  cursor: pointer;
+}
 
 .--margin {
   width: 100%;
@@ -581,6 +584,12 @@ header .header__cont-info h1 span {
 .about .about-content .about-content__info p {
   font-size: 20px;
   text-align: justify;
+}
+.about .about-content .about-content__info .about-content__hide {
+  display: none;
+}
+.about .about-content .about-content__info .about-content__open {
+  display: block;
 }
 .about .about-content .about-content__info .about-content__info-bottom {
   width: 100%;
