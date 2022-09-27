@@ -10,13 +10,13 @@
     }
 
     @media screen and(max-width: 500px) {
-        height: 200px;
+        height: 500px;
     }
 
     .goals-bg {
         @include img;
         width: 150%;
-        width: 150%;
+        height: 100%;
         position: relative;
     }
 
@@ -24,6 +24,8 @@
         width: 90%;
         max-width: 1200px;
         height: 80%;
+        max-height: 680px;
+        min-height: 500px;
         @include flex(column,center);
         position: absolute;
         gap: 20px;
@@ -39,7 +41,11 @@
             .goals__title-line {
                 @include coursive-line(100%, white);
             }
+
+           
         }
+
+
 
         .goals__description {
             width: 80%;
@@ -80,7 +86,13 @@
 // Media Querys // ---------------------
 @media screen and(max-width: 1275px) {
     .goals {
-        height: 800px;
+        height: 600px;
+
+        .goals-bg {
+            @include img;
+         
+            position: relative;
+        }
           
         .goals-content {
             .goals-content__cont-point {
@@ -112,7 +124,6 @@
 
 @media screen and(max-width: 1050px) {
     .goals {
-        height: 1000px;
         .goals-content {
             .goals-content__cont-point {
                 height: 80%;
@@ -171,6 +182,7 @@
                 justify-self: center;
                 align-self: center;
                 margin-left: none;
+                margin-left: 0;
             }
             .goals-content__cont-point {
                @include flex(column, center);
@@ -193,9 +205,9 @@
     } 
 }
 
-@media screen and(max-width: 456px) {
+@media screen and(max-width: 450px) {
     .goals {
-        height: 1200px;
+        height: 700px;
         .goals-content {
             width: 100%;
             height: 95%;
