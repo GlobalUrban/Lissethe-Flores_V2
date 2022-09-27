@@ -5,6 +5,7 @@
   @include flex-center;
   justify-content: flex-end;
   overflow: hidden;
+  transform: translateY(-5px);
 
   .contact-bg {
     @include img;
